@@ -28,7 +28,7 @@ import threading
 from kivy.core.window import Window
 
 # Set the OpenAI API key
-api_key = os.environ.get('OPENAI_API_KEY', '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')
+api_key = os.environ.get('OPENAI_API_KEY', 'Enter your openAI key here')
 openai.api_key = api_key
 
 # Define the UploadScreen class
